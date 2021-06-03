@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import styled from 'styled-components';
 import { GoPrimitiveDot } from "react-icons/go";
 import { removeChat, selectedChat } from '../../Redux/action/peopleAction';
-import { data } from 'autoprefixer';
 import ChatWindow from './ChatWindow';
 
 function ChatRender({ id, image, name }) {
@@ -37,7 +36,10 @@ function ChatRender({ id, image, name }) {
                     <GoPrimitiveDot />
                 </RenderActive>
             </RenderItem>
-            <ChatWindow click={click} id={User} />
+            {
+                click && <ChatWindow click={click} id={User} />
+            }
+
         </Render>
     )
 }

@@ -1,8 +1,7 @@
-import { createStore, applyMiddleware } from 'redux'
+import { createStore } from 'redux'
 import { persistStore, persistReducer } from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
 import reducer from '../Redux/reducer';
-import { composeWithDevTools } from 'redux-devtools-extension';
 
 const persistConfig = { // configuration object for redux-persist
     key: 'root',

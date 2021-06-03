@@ -24,7 +24,8 @@ function Sidebar() {
                 <TopbarHead>
                     {
                         SideBarData.map((Nav) => (
-                            window.location.pathname === Nav.path && <p>{Nav.title}</p>
+
+                            window.location.pathname === Nav.path && <p>{Nav.title} </p>
                         ))
                     }
                 </TopbarHead>

@@ -1,11 +1,10 @@
 import { ActionTypes } from "../constant/actionTypes"
-import { createSlice } from '@reduxjs/toolkit';
+
 
 const initialState = {
     peoples: []
 }
 
-const initialStatetwo = undefined
 
 export const peopleReducer = (state = initialState, { type, payload }) => {
     switch (type) {

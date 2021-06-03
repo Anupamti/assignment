@@ -9,7 +9,7 @@ import {
     Route,
 } from "react-router-dom";
 import Profile from '../Profile/Profile';
-import NotFound from '../Posts/404';
+import NotFound from '../Posts/four';
 
 
 function Homepage() {

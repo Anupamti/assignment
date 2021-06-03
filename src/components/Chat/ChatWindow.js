@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { useSelector } from 'react-redux'
 import styled from 'styled-components'
-import { BiChevronUp, BiChevronDown, BiX } from "react-icons/bi";
+import { BiChevronDown, BiX } from "react-icons/bi";
 
 function ChatWindow({ id }) {
     const [click, setClick] = useState(false);

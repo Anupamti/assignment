@@ -16,8 +16,6 @@ function Profile() {
     const { address: { city, street, suite, zipcode } } = Selected
     const { address: { geo: { lat, lng } } } = Selected
 
-
-    console.log(Selected)
     return (
         <SidebarContainer>
             <SideBarRigtContainer>

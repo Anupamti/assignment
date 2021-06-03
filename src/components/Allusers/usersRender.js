@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'react-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { selected } from '../../Redux/action/peopleAction'
 function UsersRender({ id, image, name }) {
